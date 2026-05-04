@@ -2,8 +2,8 @@ const axios = require('axios');
 
 module.exports.handler = async function (event, context) {
     const YANDEX_WEATHER_KEY = 'da41d5f5-ce05-4b95-a7d3-304665fe5676';  
-    const TELEGRAM_BOT_TOKEN = '8445994040:AAEhh4xBpt0ynGz_PR03zrYoGTfVzbKGuPI'; 
-    const TELEGRAM_CHAT_ID = '1151038847'; 
+    const TELEGRAM_BOT_TOKEN = ''; 
+    const TELEGRAM_CHAT_ID = ''; 
     
     const LAT = 45.0448;
     const LON = 38.976;
