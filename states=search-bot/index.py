@@ -4,7 +4,7 @@ import time
 import xml.etree.ElementTree as ET
 from deep_translator import GoogleTranslator
 
-TOKEN = "8640854788:AAFUI4KA5RryAjqiQQDI3XoDLA1LUfJrB1c"
+TOKEN = ""
 
 def translate_text(text, target='ru'):
     try: 
