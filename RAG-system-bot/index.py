@@ -6,10 +6,10 @@ import os
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-TOKEN = "8314977859:AAFQYviPdi34vhHJr3JQOBqay6P2-hs5RHI"
+TOKEN = ""
 BUCKET_NAME = "sborinfa"
 
-AWS_ACCESS_KEY = "YCAJExMfogKKf5nfJSbz_i9iK"
+AWS_ACCESS_KEY = ""
 AWS_SECRET_KEY = ""
 
 s3 = boto3.client(
